@@ -1,3 +1,13 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+p {
+    padding: 10px;
+}
+article {
+    margin-top: 50px;
+}
 .justify-content {
     text-align: justify;
 }
@@ -18,4 +28,31 @@ img.align-left {
 }
 img.align-right {
     float: right;
+}
+nav {
+    background-color:white;
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(143, 112, 112);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: lightgray;
+    border-bottom: 5px solid black;
+    
 }
